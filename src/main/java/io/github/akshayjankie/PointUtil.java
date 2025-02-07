@@ -17,7 +17,7 @@ public final class PointUtil {
      * @param b the second number
      * @return the result
      */
-    public static final int multiply(int a, int b) {
+    public static int multiply(int a, int b) {
         return a * b;
     }
 
@@ -28,7 +28,7 @@ public final class PointUtil {
      * @param b the second number
      * @return the result
      */
-    public static final int divide(int a, int b) {
+    public static int divide(int a, int b) {
         return a / b;
     }
 }

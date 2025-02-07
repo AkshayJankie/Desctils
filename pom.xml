@@ -33,6 +33,13 @@
     </developer>
   </developers>
 
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <build>
     <pluginManagement>
       <plugins>
@@ -95,6 +102,18 @@
               <phase>verify</phase>
               <goals>
                 <goal>sign</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checksum-plugin</artifactId>
+          <version>1.0</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>files</goal>
               </goals>
             </execution>
           </executions>
