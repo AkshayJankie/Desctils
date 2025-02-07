@@ -13,14 +13,15 @@
     <maven.compiler.release>21</maven.compiler.release>
   </properties>
 
+  <scm>
+    <url>https://github.com/akshayjankie/Desctils</url>
+    <connection>scm:git:git://github.com/akshayjankie/Desctils.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:akshayjankie/Desctils.git</developerConnection>
+  </scm>
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
-    </snapshotRepository>
     <repository>
-      <id>ossrh</id>
+      <id>central</id>
       <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
