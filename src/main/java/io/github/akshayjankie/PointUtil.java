@@ -2,6 +2,7 @@ package io.github.akshayjankie;
 
 
 /**
+ * PointUtil class with helper functions
  * @author Akshay Jankie
  */
 

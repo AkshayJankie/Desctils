@@ -2,7 +2,7 @@ package io.github.akshayjankie;
 
 
 /**
- *
+ * Util class with helper functions
  * @author Akshay Jankie
  */
 
@@ -31,3 +31,4 @@ public final class Util {
         return a - b;
     }
 }
+
