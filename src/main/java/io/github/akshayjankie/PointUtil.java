@@ -2,6 +2,9 @@ package io.github.akshayjankie;
 
 
 /**
+ *  * Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+ *  * You may not use this file for commercial purposes.
+ *  * See: <a href="https://creativecommons.org/licenses/by-nc/4.0/">...</a>
  * PointUtil class with helper functions
  * @author Akshay Jankie
  */

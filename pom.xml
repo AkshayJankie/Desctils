@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.akshayjankie</groupId>
     <artifactId>desctils</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <description>Util library</description>
     <url>https://github.com/akshayjankie/Desctils</url>
 
@@ -50,6 +50,11 @@
         <license>
             <name>The MIT License</name>
             <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>CC BY-NC-SA 4.0</name>
+            <url>https://creativecommons.org/licenses/by-nc-sa/4.0/</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
